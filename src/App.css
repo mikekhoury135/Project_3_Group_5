@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+/* NAV BAR */
+
+header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid black;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 500px;
+}
+.flex-row {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.flex-row li {
+padding-left: 15px;
+}
+
+/* HERO SECTION */
+
+/* PRODUCT CARD */
+
+main h1 {
+  text-align: center;
+}
+.featured-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  border: 3px solid black;
+  max-height: 500px;
+  max-width: 300px;
+}
+.card-image {
+  height: 70%;
+  width: auto;
+  border-bottom: 3px solid black;
+}
+.card-content {
+  height: 30%;
+  width: auto;
+}
+.card-name, .card-price, .cart-link {
+  text-align: center;
+}
